@@ -29,7 +29,7 @@ const phrases = [
 ]
 
 app.get('/', (req, res) => {
-    const number = Math.floor(Math.random() * 7);
+    const number = Math.floor(Math.random() * 23);
     res.send(phrases[number])
 })
 
